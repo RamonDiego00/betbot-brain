@@ -1,29 +1,25 @@
 ---
-
 kanban-plugin: list
-
 ---
 
+# Kanban (Visao)
+
+Este arquivo e uma visao rapida do trabalho.
+
+Fonte oficial do backlog: [[../Documentation/Tasks/README|Documentation/Tasks]].
+
 ## To-Do
-
-- [ ] Configurar tokens do Telegram no `application.properties`
-- [ ] Implementar estratégia de decisão "Corners"
-- [ ] Configurar GitHub Actions para integração contínua (CI)
-- [ ] Criar testes de integração com Postgres Service Container
-
+- [ ] [[../Documentation/Tasks/TODO/TASK-2026-001 - configurar-tokens-telegram|TASK-2026-001]] Configurar tokens do Telegram no `application.properties`
+- [ ] [[../Documentation/Tasks/TODO/TASK-2026-002 - implementar-estrategia-corners|TASK-2026-002]] Implementar estrategia de decisao "Corners"
+- [ ] [[../Documentation/Tasks/TODO/TASK-2026-003 - configurar-cicd-github-actions|TASK-2026-003]] Configurar GitHub Actions para integracao continua (CI)
 
 ## In Progress
-
-- [ ] Implementar `BetDecisionUseCase`
-- [ ] Mapeamento das entidades JPA (`BetEntity`, `UserEntity`)
-
+- [ ]
 
 ## Done
-
-- [x] Definição da Arquitetura Hexagonal
-- [x] Configuração inicial do Spring Boot 3.5.0
-- [x] Estrutura de pastas do domínio
-
+- [x] Definicao da Arquitetura Hexagonal
+- [x] Configuracao inicial do Spring Boot 3.5.0
+- [x] Estrutura de pastas do dominio
 
 %% kanban:settings
 ```
